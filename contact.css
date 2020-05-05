@@ -1,0 +1,21 @@
+.text{
+    text-align: center;
+}
+
+.text h4{
+    color:white;
+    font-size:30px; 
+    margin-top: 50px;
+    padding:20px; 
+    font-family: 'Montserrat', sans-serif; 
+    background-color: rgba(30, 40, 53, 0.5);
+    text-align: center;
+}
+
+.text .icon i{
+    font-size: 28px;
+    margin-top:20px;
+    padding: 3px;
+    padding-top: 10px;
+    color: rgb(187, 238, 247);
+}

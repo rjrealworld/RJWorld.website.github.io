@@ -1,0 +1,67 @@
+.text{
+    width: 100%;
+    margin-top: 170px;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(187, 238, 247);
+    letter-spacing: 6px;
+}
+
+.text h4{
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    animation: text3 4s;
+}
+
+.text h1{
+    font-size: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    animation: text2 4s;
+}
+
+.text h3{
+    font-size: 19px;
+    font-family: 'Montserrat', sans-serif;
+    animation: text3 5s;
+    padding-bottom: 4px;
+}
+
+.text i{
+    font-size: 28px;
+    padding: 3px;
+    padding-top: 20px;
+    color: rgb(187, 238, 247);
+}   
+
+@keyframes text2{
+    0%{
+        color: black;
+        margin-bottom: 40px;
+    }
+    30%{
+        letter-spacing: 25px;
+        margin-bottom: 40px;
+    }
+    85%{
+        letter-spacing: 4px;
+        margin-bottom: 40px;
+    }
+}
+
+@keyframes text3{
+    0%{
+        color: black;
+        margin-bottom: 40px;
+    }
+    30%{
+        visibility: 50%;
+        margin-bottom: 40px;
+    }
+    85%{
+        visibility: 80%;
+        margin-bottom: 40px;
+    }
+}

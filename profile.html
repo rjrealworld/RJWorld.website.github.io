@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="common.css">
+        <link rel="stylesheet" type="text/css" href="profile.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="bgimage">
+            <img src="images.jpg" class="stretch" alt="" />
+            <div class="menu">
+                <div class="left">
+                    <h4><a href="index.html">RJ World</a></h4>
+                </div>
+                <div class="right">
+                    <ul>
+                        <li id="firstlist"><a href="profile.html">Profile</a></li>
+                        <li><a href="education.html">Education</a></li>
+                        <li><a href="works.html">Works</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="text">
+                <h4 class="heading">WANNA KNOW ME!</h4>
+                <button id="about">Naah</button>
+                <p class="data" id="data"></p>
+            </div>
+        </div>
+
+        <script type="text/javascript">
+            document.getElementById("about").onclick = function(){
+                document.getElementById("about").innerHTML = "Yeah!";
+                document.getElementById("about").style.color = "orange"; 
+                document.getElementById("about").style.backgroundColor = "rgb(0,0,0,0.5)";   
+                document.getElementById("data").innerHTML = "Hey there! I'm Riya Jain, a young 18 year enthusiast always ready to learn. I loves to solve algorithems and code it down on computer. Hope this helped you to get my intro.<br><br>Explore to know more about me!";
+            }
+        </script>
+    </body>
+</html>
