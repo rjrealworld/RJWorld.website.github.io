@@ -1,8 +1,8 @@
-# RJWorld.website.github.io
-own personal website
+# RJWorld Website
+Own Personal Resume Website
 
 
-*Preview - 
+* Preview - 
 
 ![](https://github.com/rjrealworld/rjrealworld.github.io/blob/master/screenshot/Screenshot%20(250).png?raw=true)
 
